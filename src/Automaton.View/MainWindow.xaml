@@ -104,10 +104,6 @@
                 SelectedIndex="{Binding CurrentTransitionerIndex}">
 
                 <materialDesign:TransitionerSlide>
-                    <view:FixPathView />
-                </materialDesign:TransitionerSlide>
-
-                <materialDesign:TransitionerSlide>
                     <view:LoadModpackView />
                 </materialDesign:TransitionerSlide>
 
