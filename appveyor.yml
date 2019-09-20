@@ -2,3 +2,6 @@ version: 1.0.{build}
 image: Visual Studio 2017
 build:
   verbosity: minimal
+artifacts:
+  - path:src\Automaton.View\bin\Debug\Automaton.exe
+    name: bin
