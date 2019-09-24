@@ -123,9 +123,6 @@
     <Compile Include="FinishedInstallView.xaml.cs">
       <DependentUpon>FinishedInstallView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FixPathView.xaml.cs">
-      <DependentUpon>FixPathView.xaml</DependentUpon>
-    </Compile>
     <Compile Include="InstallModpackView.xaml.cs">
       <DependentUpon>InstallModpackView.xaml</DependentUpon>
     </Compile>
@@ -153,10 +150,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="FinishedInstallView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="FixPathView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
